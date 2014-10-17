@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate{
     let Section1Header = "Section1Header"
-    var tableData = ["ราคาหุ้นขึ้น 3%","ราคาหุ้นขึ้น 5%","ราคาหุ้นขึ้น 10%"]
+    var tabelData = ["ราคาหุ้นขึ้น 3%","ราคาหุ้นขึ้น 5%","ราคาหุ้นขึ้น 10%"]
     
     @IBOutlet var tableview: UITableView!
     
@@ -27,34 +27,34 @@ class ViewController: UIViewController,UITableViewDelegate{
     }
 
     @IBAction func Total(sender: AnyObject) {
-        var tipTotal : Int
+        var tipTotale : Int
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.tableView.registerClass(UITableViewCell.self,forCellReuseIdentifier: self.Section1Header)
+        self.tabelView.registerClass(UITableViewCell.self,forCellReuseIdentifier: self.Section1Header)
     }
     
     func numberOfSectionInTableview(tableView: UITableView!) -> Int {
         return 1
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return tableData.count
+        return tabelData.count
     }
    func tableView(tableView: UITableView, CellforRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         var cell = tableView.dequeueReusableCellWithIdentifier(self.Section1Header) as UITableViewCell
-        cell.textLabel!.text = self.tableData[indexPath.row]
+        cell.textLabel!.text = self.tabelData[indexPath.row]
         var imageView!.image = imageName
         return cell
     }
    func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {    }
     
     func calcTipWithTipHeader(tipHeader:Double) ->(tipVolum:Int, Price:Double){
-    let tipHeader = (Price*3/100)*Double(Volume)
+    let tipHeader = (Price*3/100) Double(Volume)
         return tipHeader
     }
     func calcTipWithTipTotal(tipTotal:Int) ->(tipVolum:Int, Price:Double){
-        let tipTotal = tipVolum*Int(Price)
+        let tipTotale = (tipVolume)Int(Price)
         return tipTotale
     }
 
