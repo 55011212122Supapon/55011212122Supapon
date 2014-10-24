@@ -18,6 +18,15 @@ class ViewController: UIViewController,ColorTwoViewControllerDelegate {
     func myVCDidFinish(controller: ColorTwoViewController, text: String){
         //ColorLabel.text = ""
         ColorLabel.text = "Co: " + text
+        if(text=="Red"){
+            ColorLabel.backgroundColor = UIColor.redColor()
+        }
+        else if(text=="Blue"){
+            ColorLabel.backgroundColor = UIColor.blueColor()
+        }
+        else{
+            ColorLabel.backgroundColor = UIColor.greenColor()
+        }
         controller.navigationController?.popViewControllerAnimated(true)
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {

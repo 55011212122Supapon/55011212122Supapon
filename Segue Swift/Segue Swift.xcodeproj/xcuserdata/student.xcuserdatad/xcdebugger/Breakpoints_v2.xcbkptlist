@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Segue Swift/ColorTwoViewController.swift"
+            timestampString = "435828031.879981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ColorTwoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Segue_Swift.ColorTwoViewController.__deallocating_deinit"
+                  moduleName = "Segue Swift"
+                  urlString = "file:///Users/student/Desktop/55011212122Supapon/Segue%20Swift/Segue%20Swift/ColorTwoViewController.swift"
+                  timestampString = "435828031.938406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Segue_Swift.ColorTwoViewController.__ivar_destroyer"
+                  moduleName = "Segue Swift"
+                  urlString = "file:///Users/student/Desktop/55011212122Supapon/Segue%20Swift/Segue%20Swift/ColorTwoViewController.swift"
+                  timestampString = "435828031.939758"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Segue Swift/ColorTwoViewController.swift"
+            timestampString = "435828061.015042"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Segue_Swift.ColorTwoViewController.__deallocating_deinit"
+                  moduleName = "Segue Swift"
+                  urlString = "file:///Users/student/Desktop/55011212122Supapon/Segue%20Swift/Segue%20Swift/ColorTwoViewController.swift"
+                  timestampString = "435828061.017739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Segue_Swift.ColorTwoViewController.__ivar_destroyer"
+                  moduleName = "Segue Swift"
+                  urlString = "file:///Users/student/Desktop/55011212122Supapon/Segue%20Swift/Segue%20Swift/ColorTwoViewController.swift"
+                  timestampString = "435828061.017919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

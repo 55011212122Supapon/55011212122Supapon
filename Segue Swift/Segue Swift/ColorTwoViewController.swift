@@ -22,6 +22,19 @@ class ColorTwoViewController: UIViewController {
     
     @IBAction func ColorSelectionButton(sender: UIButton) {
         ColorLabel.text = sender.titleLabel!.text!
+        
+        if(sender.titleLabel!.text!=="Red"){
+            ColorLabel.textColor = UIColor.redColor()
+            ColorLabel.backgroundColor = UIColor.grayColor()
+        }
+        else if(sender.titleLabel!.text!=="Blue"){
+            ColorLabel.textColor = UIColor.blueColor()
+            ColorLabel.backgroundColor = UIColor.grayColor()
+        }
+        else{
+            ColorLabel.textColor = UIColor.greenColor()
+            ColorLabel.backgroundColor = UIColor.grayColor()
+        }
     }
     
     @IBAction func SeveColor(sender: UIBarButtonItem) {
