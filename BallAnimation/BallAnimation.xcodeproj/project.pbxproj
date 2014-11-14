@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9874B81A15ED330064CBDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9874B71A15ED330064CBDA /* AppDelegate.swift */; };
+		3F9874BA1A15ED330064CBDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9874B91A15ED330064CBDA /* ViewController.swift */; };
+		3F9874BD1A15ED330064CBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874BB1A15ED330064CBDA /* Main.storyboard */; };
+		3F9874BF1A15ED330064CBDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874BE1A15ED330064CBDA /* Images.xcassets */; };
+		3F9874C21A15ED330064CBDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874C01A15ED330064CBDA /* LaunchScreen.xib */; };
+		3F9874CE1A15ED340064CBDA /* BallAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9874CD1A15ED340064CBDA /* BallAnimationTests.swift */; };
+		3F9874E11A15EE3B0064CBDA /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874D71A15EE3B0064CBDA /* 10.png */; };
+		3F9874E21A15EE3B0064CBDA /* 140.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874D81A15EE3B0064CBDA /* 140.png */; };
+		3F9874E31A15EE3B0064CBDA /* 2006.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874D91A15EE3B0064CBDA /* 2006.png */; };
+		3F9874E41A15EE3B0064CBDA /* BLL-4-.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DA1A15EE3B0064CBDA /* BLL-4-.png */; };
+		3F9874E51A15EE3B0064CBDA /* images copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DB1A15EE3B0064CBDA /* images copy.png */; };
+		3F9874E61A15EE3B0064CBDA /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DC1A15EE3B0064CBDA /* images.png */; };
+		3F9874E71A15EE3B0064CBDA /* MOLTENFOOTBALLFVA5000A020130914235920.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DD1A15EE3B0064CBDA /* MOLTENFOOTBALLFVA5000A020130914235920.png */; };
+		3F9874E81A15EE3B0064CBDA /* MOLTENFOOTBALLVG470020130915012926.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DE1A15EE3B0064CBDA /* MOLTENFOOTBALLVG470020130915012926.png */; };
+		3F9874E91A15EE3B0064CBDA /* Multicolored_Inflatable_beach_ball.jpg_220x220.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874DF1A15EE3B0064CBDA /* Multicolored_Inflatable_beach_ball.jpg_220x220.png */; };
+		3F9874EA1A15EE3B0064CBDA /* rome_finale_ball_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874E01A15EE3B0064CBDA /* rome_finale_ball_1.png */; };
+		3F9874EC1A1604BD0064CBDA /* 1_4_080205235535_C2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9874EB1A1604BD0064CBDA /* 1_4_080205235535_C2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9874C81A15ED340064CBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9874AA1A15ED330064CBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9874B11A15ED330064CBDA;
+			remoteInfo = BallAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9874B21A15ED330064CBDA /* BallAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9874B61A15ED330064CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9874B71A15ED330064CBDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9874B91A15ED330064CBDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9874BC1A15ED330064CBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9874BE1A15ED330064CBDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F9874C11A15ED330064CBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F9874C71A15ED340064CBDA /* BallAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9874CC1A15ED340064CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9874CD1A15ED340064CBDA /* BallAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallAnimationTests.swift; sourceTree = "<group>"; };
+		3F9874D71A15EE3B0064CBDA /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3F9874D81A15EE3B0064CBDA /* 140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 140.png; sourceTree = "<group>"; };
+		3F9874D91A15EE3B0064CBDA /* 2006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2006.png; sourceTree = "<group>"; };
+		3F9874DA1A15EE3B0064CBDA /* BLL-4-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLL-4-.png"; sourceTree = "<group>"; };
+		3F9874DB1A15EE3B0064CBDA /* images copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images copy.png"; sourceTree = "<group>"; };
+		3F9874DC1A15EE3B0064CBDA /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		3F9874DD1A15EE3B0064CBDA /* MOLTENFOOTBALLFVA5000A020130914235920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MOLTENFOOTBALLFVA5000A020130914235920.png; sourceTree = "<group>"; };
+		3F9874DE1A15EE3B0064CBDA /* MOLTENFOOTBALLVG470020130915012926.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MOLTENFOOTBALLVG470020130915012926.png; sourceTree = "<group>"; };
+		3F9874DF1A15EE3B0064CBDA /* Multicolored_Inflatable_beach_ball.jpg_220x220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Multicolored_Inflatable_beach_ball.jpg_220x220.png; sourceTree = "<group>"; };
+		3F9874E01A15EE3B0064CBDA /* rome_finale_ball_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rome_finale_ball_1.png; sourceTree = "<group>"; };
+		3F9874EB1A1604BD0064CBDA /* 1_4_080205235535_C2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_4_080205235535_C2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9874AF1A15ED330064CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9874C41A15ED340064CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9874A91A15ED330064CBDA = {
+			isa = PBXGroup;
+			children = (
+				3F9874B41A15ED330064CBDA /* BallAnimation */,
+				3F9874CA1A15ED340064CBDA /* BallAnimationTests */,
+				3F9874B31A15ED330064CBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9874B31A15ED330064CBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9874B21A15ED330064CBDA /* BallAnimation.app */,
+				3F9874C71A15ED340064CBDA /* BallAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9874B41A15ED330064CBDA /* BallAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3F9874B71A15ED330064CBDA /* AppDelegate.swift */,
+				3F9874B91A15ED330064CBDA /* ViewController.swift */,
+				3F9874BB1A15ED330064CBDA /* Main.storyboard */,
+				3F9874BE1A15ED330064CBDA /* Images.xcassets */,
+				3F9874C01A15ED330064CBDA /* LaunchScreen.xib */,
+				3F9874B51A15ED330064CBDA /* Supporting Files */,
+			);
+			path = BallAnimation;
+			sourceTree = "<group>";
+		};
+		3F9874B51A15ED330064CBDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9874EB1A1604BD0064CBDA /* 1_4_080205235535_C2.png */,
+				3F9874D71A15EE3B0064CBDA /* 10.png */,
+				3F9874D81A15EE3B0064CBDA /* 140.png */,
+				3F9874D91A15EE3B0064CBDA /* 2006.png */,
+				3F9874DA1A15EE3B0064CBDA /* BLL-4-.png */,
+				3F9874DB1A15EE3B0064CBDA /* images copy.png */,
+				3F9874DC1A15EE3B0064CBDA /* images.png */,
+				3F9874DD1A15EE3B0064CBDA /* MOLTENFOOTBALLFVA5000A020130914235920.png */,
+				3F9874DE1A15EE3B0064CBDA /* MOLTENFOOTBALLVG470020130915012926.png */,
+				3F9874DF1A15EE3B0064CBDA /* Multicolored_Inflatable_beach_ball.jpg_220x220.png */,
+				3F9874E01A15EE3B0064CBDA /* rome_finale_ball_1.png */,
+				3F9874B61A15ED330064CBDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F9874CA1A15ED340064CBDA /* BallAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9874CD1A15ED340064CBDA /* BallAnimationTests.swift */,
+				3F9874CB1A15ED340064CBDA /* Supporting Files */,
+			);
+			path = BallAnimationTests;
+			sourceTree = "<group>";
+		};
+		3F9874CB1A15ED340064CBDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9874CC1A15ED340064CBDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9874B11A15ED330064CBDA /* BallAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9874D11A15ED340064CBDA /* Build configuration list for PBXNativeTarget "BallAnimation" */;
+			buildPhases = (
+				3F9874AE1A15ED330064CBDA /* Sources */,
+				3F9874AF1A15ED330064CBDA /* Frameworks */,
+				3F9874B01A15ED330064CBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallAnimation;
+			productName = BallAnimation;
+			productReference = 3F9874B21A15ED330064CBDA /* BallAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9874C61A15ED340064CBDA /* BallAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9874D41A15ED340064CBDA /* Build configuration list for PBXNativeTarget "BallAnimationTests" */;
+			buildPhases = (
+				3F9874C31A15ED340064CBDA /* Sources */,
+				3F9874C41A15ED340064CBDA /* Frameworks */,
+				3F9874C51A15ED340064CBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9874C91A15ED340064CBDA /* PBXTargetDependency */,
+			);
+			name = BallAnimationTests;
+			productName = BallAnimationTests;
+			productReference = 3F9874C71A15ED340064CBDA /* BallAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9874AA1A15ED330064CBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F9874B11A15ED330064CBDA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3F9874C61A15ED340064CBDA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3F9874B11A15ED330064CBDA;
+					};
+				};
+			};
+			buildConfigurationList = 3F9874AD1A15ED330064CBDA /* Build configuration list for PBXProject "BallAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9874A91A15ED330064CBDA;
+			productRefGroup = 3F9874B31A15ED330064CBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9874B11A15ED330064CBDA /* BallAnimation */,
+				3F9874C61A15ED340064CBDA /* BallAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9874B01A15ED330064CBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9874E61A15EE3B0064CBDA /* images.png in Resources */,
+				3F9874E81A15EE3B0064CBDA /* MOLTENFOOTBALLVG470020130915012926.png in Resources */,
+				3F9874BD1A15ED330064CBDA /* Main.storyboard in Resources */,
+				3F9874C21A15ED330064CBDA /* LaunchScreen.xib in Resources */,
+				3F9874E11A15EE3B0064CBDA /* 10.png in Resources */,
+				3F9874E71A15EE3B0064CBDA /* MOLTENFOOTBALLFVA5000A020130914235920.png in Resources */,
+				3F9874E51A15EE3B0064CBDA /* images copy.png in Resources */,
+				3F9874E91A15EE3B0064CBDA /* Multicolored_Inflatable_beach_ball.jpg_220x220.png in Resources */,
+				3F9874E31A15EE3B0064CBDA /* 2006.png in Resources */,
+				3F9874EC1A1604BD0064CBDA /* 1_4_080205235535_C2.png in Resources */,
+				3F9874E21A15EE3B0064CBDA /* 140.png in Resources */,
+				3F9874E41A15EE3B0064CBDA /* BLL-4-.png in Resources */,
+				3F9874BF1A15ED330064CBDA /* Images.xcassets in Resources */,
+				3F9874EA1A15EE3B0064CBDA /* rome_finale_ball_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9874C51A15ED340064CBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9874AE1A15ED330064CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9874BA1A15ED330064CBDA /* ViewController.swift in Sources */,
+				3F9874B81A15ED330064CBDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9874C31A15ED340064CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9874CE1A15ED340064CBDA /* BallAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9874C91A15ED340064CBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9874B11A15ED330064CBDA /* BallAnimation */;
+			targetProxy = 3F9874C81A15ED340064CBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9874BB1A15ED330064CBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9874BC1A15ED330064CBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9874C01A15ED330064CBDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9874C11A15ED330064CBDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9874CF1A15ED340064CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9874D01A15ED340064CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9874D21A15ED340064CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F9874D31A15ED340064CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F9874D51A15ED340064CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BallAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallAnimation.app/BallAnimation";
+			};
+			name = Debug;
+		};
+		3F9874D61A15ED340064CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BallAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallAnimation.app/BallAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9874AD1A15ED330064CBDA /* Build configuration list for PBXProject "BallAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9874CF1A15ED340064CBDA /* Debug */,
+				3F9874D01A15ED340064CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9874D11A15ED340064CBDA /* Build configuration list for PBXNativeTarget "BallAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9874D21A15ED340064CBDA /* Debug */,
+				3F9874D31A15ED340064CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9874D41A15ED340064CBDA /* Build configuration list for PBXNativeTarget "BallAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9874D51A15ED340064CBDA /* Debug */,
+				3F9874D61A15ED340064CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9874AA1A15ED330064CBDA /* Project object */;
+}
