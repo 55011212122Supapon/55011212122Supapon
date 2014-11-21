@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreMotion
 
 class ViewController: UIViewController, UICollisionBehaviorDelegate{
     
@@ -20,6 +21,9 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate{
     
     var snap: UISnapBehavior!
     //var square: UIView!
+    
+    let motionManager = CMMotionManager()
+    let motionQueue = NSOperationQueue()
     
     func collisionBehavior(behavior: UICollisionBehavior! , beganContactForItem item: UIDynamicItem! , withBoundaryIdentifier identifier: NSCopying! , atPoint p: CGPoint){
         println("Boundary contact occurred - \(identifier)")
@@ -49,9 +53,6 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
-        
         
        let barrier = UIView(frame: CGRect(x: 0, y: 300, width: 130, height: 20))
         
@@ -95,6 +96,10 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func coreMotion(){
+        motionManager.startAccelerometerUpdatesToQueue(motionQueue, withHandler: )
     }
     
     func panning(pan: UIPanGestureRecognizer){

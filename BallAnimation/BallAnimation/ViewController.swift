@@ -58,9 +58,11 @@ class ViewController: UIViewController,UICollisionBehaviorDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        skay.image = UIImage(named: "1_4_080205235535_C2.png")
+        /*skay.image = UIImage(named: "1_4_080205235535_C2.png")
         skay.frame = CGRect(x: 0, y: 0, width: 800, height: 800)
-        self.view.addSubview(skay)
+        self.view.addSubview(skay)*/
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "1_4_080205235535_C2.png"))
         
         ball.image = UIImage(named: "10.png")
         ball.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
@@ -73,13 +75,9 @@ class ViewController: UIViewController,UICollisionBehaviorDelegate {
             self.ball.transform = CGAffineTransformMakeRotation(fullRotation)
         })
         
-        animator = UIDynamicAnimator(referenceView: view)
-        gravity = UIGravityBehavior(items: [ball])
-        animator.addBehavior(gravity)
-        
         collision = UICollisionBehavior(items: [ball])
         collision.translatesReferenceBoundsIntoBoundary = true
-        animator.addBehavior(collision)
+        //animator.addBehavior(collision)
         
         let barrier = UIView(frame: CGRect(x: 0, y: 300, width: 130, height: 20))
         
@@ -94,26 +92,7 @@ class ViewController: UIViewController,UICollisionBehaviorDelegate {
 
     }
     
-   /* override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
-        if(barrire != nil){
-            animator.removeBehavior(snap)
-        }
-        
-        let touch = touches.anyObject() as UITouch
-        snap = UISnapBehavior(item: barrire, snapToPoint: touch.locationInView(view))
-        animator.addBehavior(snap)
-    }*/
-    
-    /*override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
-        if(snap != nil){
-            animator.removeBehavior(snap)
-        }
-        
-        let touch = touches.anyObject() as UITouch
-        snap = UISnapBehavior(item: barrire, snapToPoint: touch.locationInView(view))
-        animator.addBehavior(snap)
-    }*/
-    
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -122,4 +101,31 @@ class ViewController: UIViewController,UICollisionBehaviorDelegate {
 
 
 }
+
+/* animator = UIDynamicAnimator(referenceView: view)
+gravity = UIGravityBehavior(items: [ball])
+animator.addBehavior(gravity)*/
+
+/* self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];  */
+
+/* override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+if(barrire != nil){
+animator.removeBehavior(snap)
+}
+
+let touch = touches.anyObject() as UITouch
+snap = UISnapBehavior(item: barrire, snapToPoint: touch.locationInView(view))
+animator.addBehavior(snap)
+}*/
+
+/*override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+if(snap != nil){
+animator.removeBehavior(snap)
+}
+
+let touch = touches.anyObject() as UITouch
+snap = UISnapBehavior(item: barrire, snapToPoint: touch.locationInView(view))
+animator.addBehavior(snap)
+}*/
+
 
